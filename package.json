@@ -1,0 +1,22 @@
+{
+  "name": "car-selling-telegram-bot",
+  "version": "1.0.0",
+  "description": "Telegram bot for car selling channel with admin panel",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "nodemon index.js"
+  },
+  "dependencies": {
+    "node-telegram-bot-api": "^0.64.0",
+    "mongoose": "^8.0.0",
+    "dotenv": "^16.3.1",
+    "multer": "^1.4.5-lts.1"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.1"
+  },
+  "keywords": ["telegram", "bot", "car", "selling", "mongodb"],
+  "author": "Your Name",
+  "license": "MIT"
+}
